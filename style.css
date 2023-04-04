@@ -1,69 +1,65 @@
-*{
-    font-family: 'Lato';
-}
-
-.bg-primary-color{
-    background-color: #262323;
-}
-
-
-
-.bg-primary-color{
-    background-color: #262323;
-}
-.bg-secondary-color{
-    background-color: #ece8ea;
-}
-
-
-.primary-color{
-    color: #e61919;
-}
-
-.secondary-color{
+* {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .bg-primary-color {
+    background-color: #dddee0;
+  }
+  
+  .bg-secondary-color {
+    background-color: #ece8e2;
+  }
+  
+  .bg-dark-color {
+    background-color: #050505;
+  }
+  
+  .primary-color {
+    color: #050505;
+  }
+  
+  .secondary-color {
     color: #7a7a7a;
-}
-
-/* Css do Navbar */
-
-#navbar{
-    border-bottom: 1px solid #7a7a7a;
-}
-
-/*mudando de cor ao passar o mouse */
-
-#nabvar a.active{
-    border-bottom: 1 px solid #eb1b1b;
-}
-
-#navbar a:hover{
-    color: #e4e4e4;
-}
-
-.navbar-brand{
-    display:flex;
-}
-
-/* alinhando as informacoes da navbar no meio da pagina*/
-
-#navbar-items .navbar-nav{
-display:flex;
-justify-content: center;
-width: 100%;
-
-}
-
-
-
-/* Tamanho do music */
-
-.navbar-brand span{
-    font-size: 300;
+  }
+  
+  /* NAVBAR */
+  #navbar {
+    border-bottom: 1px solid #0c0c0c;
+  }
+  
+  #navbar a {
+    color: #1a1818;
+  }
+  
+  #navbar a:hover {
+    color: #181616;
+  }
+  
+  #navbar .active {
+    border-bottom: 1px solid #e45d5d;
+  }
+  
+  .navbar-brand {
+    display: flex;
+  }
+  
+  .navbar-brand img {
+    width: 40px;
+  }
+  
+  .navbar-brand span {
+    font-weight: 700;
     font-size: 1.5em;
-    margin: left 0.5em;
-}
-
-#navbar-items .nav-item{
-    margin: 0.9em;
-}
-
+    margin-left: 0.5em;
+  }
+  
+  #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #navbar-items .nav-item {
+    margin: 0 1em;
+  }
+  
