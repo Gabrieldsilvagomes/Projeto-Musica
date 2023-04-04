@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music</title>
-    <link rel="shortcut icon" href="img/baner1.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/baner1.jpeg" type="image/x-icon" />
     <!-- Google fonts Lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,13 +20,12 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <!-- Bootstrap Icons -->
+    <!-- icones do bootstrap -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <!-- CSS do projeto -->
-    <link rel="stylesheet" href="A3/css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <!-- JavaScript Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -35,12 +34,13 @@
     ></script>
   </head>
   <body>
-    <!-- NAVBAR -->
+    <!-- Criando NavBar -->
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
       <div class="container py-3">
-        <a class="navbar-brand primary color">
-           <!-- Icone de musica-->
-            <i class="bi bi-file-music-fill" width:100></i>
+        <a class="navbar-brand" href="#">
+          
+            <!--Icone da navBar-->
+            <i class="bi bi-file-music-fill"></i>
           <span>Music</span>
         </a>
         <button
@@ -52,23 +52,21 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-
-       
-          <i class="bi bi-list" ></i>
+          <i class="bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbar-items">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active primary color" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primary color"> Sobre Nós </a>
+              <a class="nav-link" href="#">Nossa História</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primary color">Produtos</a>
+              <a class="nav-link" href="#">Produtos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primary color">Contato</a>
+              <a class="nav-link" href="#">Contato</a>
             </li>
           </ul>
         </div>
@@ -99,17 +97,11 @@
             aria-label="Slide 3"
           ></button>
         </div>
-
-        <!--criando o carrosel-->
-
         <div class="carousel-inner">
-          <div class="carousel-item active"></div>
-            <img src="img/baner1.jpeg" alt="Baner1 carrosel Violão" class="d-block w-100">
-            <!--criando um subtitulo-->
+          <div class="carousel-item active">
+            <img src="img/baner1.jpeg" class="d-block w-100" alt="Instrumento"/>
             <div class="carousel-caption">
-              <h5> Instrumentos Musicais</h5>
-              <a href="" class="btn btn-dark"> Ver Produtos</a>
-
+              <h5>Instrumentos Musicais</h5>
+              <a href="#" class="btn btn-dark">Ver Produtos</a>
             </div>
-
-        </div>
+          </div>
